@@ -1,3 +1,4 @@
+#Logistic Regression from Scratch - Tony Vuolo 2021
 #read data, set column names, code outcomes as factors
 logit_data <- read.csv("c:\\data\\logit_data.csv", header = FALSE)
 colnames(logit_data) <- c("A","study_hours")
